@@ -1,0 +1,16 @@
+/*
+*= require_tree .
+*/
+
+@import "bulma";
+@import "functions";
+@import "subscriptions";
+@import "books";
+
+.notification {
+  border-radius: 0;
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
